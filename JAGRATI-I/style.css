@@ -1,0 +1,452 @@
+body{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 84px;
+    justify-content: space-around;
+    font-family: "Work Sans", sans-serif;
+    background-color: #606065;
+    font-size: 1rem;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+   
+}
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo-text{
+    font-weight: 700;
+    color:#fc8800;
+    font-size: 1.7em;
+    /* padding-top: 24px; */
+    padding-left: 5px;
+    cursor: pointer;
+}
+.header-logo-image{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    
+}
+.header-logo-text:hover{
+    color:#FF6D28
+}
+.header-items{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-items-item{
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 1.3em;
+    cursor: pointer;
+    color: white;
+}
+.header-items-item:hover{
+    color:#FF6D28;
+    letter-spacing: 0.1px;
+}
+.body-intro{
+    background-image: url(https://www.evidyaloka.org/static/images/home_1.jpg);
+    height: 600px;
+    justify-content: center;
+}
+.header-empty{
+    height: 84px;
+}
+.body-intro-tag{
+    font-weight: 1000;
+    font-size: 3em;
+    color: #FFD6EC;
+    /* width: 75%;
+    margin: auto;
+    margin-right: auto; */
+    text-align: center;
+    padding-top: 14%;
+    cursor:default;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+.body-intro-about{
+    font-weight: 600;
+    font-size: 1.5em;
+    color:#FFD6EC;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.body-intro-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.btn {
+    font-family: verdana;
+    color: white !important;
+    font-size: 17px;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: 0.5px none #3866A3;
+    background: #20BA25;
+    align-self: center;
+    
+  }
+  .btn:hover {
+    color: #444344 !important;
+    background: #29A825;
+    cursor:pointer;
+  }
+  .body-part{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.body-part-tagline{
+    font-size: 1.798rem;
+    margin-bottom: 1rem!important;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 540;
+    color: #202428;
+    letter-spacing: 0;
+    line-height: 1.3;
+    display: block;
+    text-align: center!important;
+}
+.line1{
+    height: 4px;
+    width: 100px;
+    margin: auto;
+    background-color: #00CB54!important;
+    color: #fff;
+    border-radius: 0.25rem!important;
+
+    
+}
+.jagrati-intro{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 40px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(227, 221, 221, 0.886);
+    padding-bottom: 50px;
+
+}
+.imgPlustext{
+    display: flex;
+    flex-direction: row;
+}
+.hal{
+    font-size: 1.798rem;
+    margin-bottom: 1rem!important;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 540;
+    color: #202428;
+    letter-spacing: 0;
+    line-height: 1.3;
+    display: block;
+    text-align: center!important;
+}
+.jagrati-picDiv{
+    width: 40%;
+    height: 250px;
+}
+.jagrati-pic{
+    width: 400px;
+    height: 250px;
+}
+.jagrati-about{
+    width: 50%;
+    padding-top: 20px;
+    font-family: "Work Sans", sans-serif;
+    color: #606065;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.35;
+
+}
+.btn1 {
+    font-family: verdana;
+    color: white !important;
+    font-size: 17px;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: 0.5px none #3866A3;
+    background: #20BA25;
+    align-self: center;
+  }
+  .btn1:hover {
+    color: #444344 !important;
+    background: #29A825;
+    cursor:progress
+  }
+  
+  .two-btn{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+  }
+  .tag2{
+    padding-top: 40px;
+  }
+  .student-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 20px 40px 20px;
+    
+  }
+  .card{
+    width: 280px;
+    height: 330px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: fadeIn;
+    box-shadow: 2px 2px 2px 2px rgba(227, 221, 221, 0.886);
+  }
+  .card-upcoming{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FF6D28;
+    height: 30px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .c1{
+    color:gold;
+  }
+  .c2{
+    color: green;
+  }
+  .c4{
+    color:brown;
+  }
+  .card-image{
+    font-size: 173px;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 20px;
+  }
+  .card-disc{
+    line-height: 2.2;
+    font-family: "Work Sans", sans-serif;
+  }
+  .card-imageDiv{
+    padding-top: 20px;
+  }
+  .volunteer-intro{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 40px 20px;
+    background-color: white;
+    width: 95%;
+    box-shadow: 2px 2px 2px 2px rgba(227, 221, 221, 0.886);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .vol{
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.5px solid gray;
+  }
+  .vol-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .vol-button{
+    margin: auto;
+  }
+  .vol-button-div{
+    padding-top: 30px;
+    display: flex;
+  }
+  .vol-about{
+    padding-top: 20px;
+    font-family: "Work Sans", sans-serif;
+    color: #606065;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.35;
+    width: 70%;
+    margin: auto;
+  }
+  .teacher-section{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(227, 221, 221, 0.886);
+  }
+  .teacher-disc{
+    display: flex;
+    align-self: center;
+    font-size: 1.798rem;
+    margin-bottom: 1rem!important;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 540;
+    color: #202428;
+    letter-spacing: 0;
+  }
+  .Interested-btn{
+    align-self: center;
+    margin-top: 20px;
+    
+  }
+  .footer{
+    background-color: #606065; 
+    /* //height: 200px; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    box-shadow: 5px 2px 2px 2px rgba(227, 221, 221, 0.886); ;
+
+  }
+  .footer-text{
+    text-align: center;
+    align-self: center;
+    padding-top: 16px;
+    margin: auto;
+    font-size: 1.1em;
+    color: gainsboro;
+  }
+  
+  .footer-college{
+    text-align: center;
+    color: gainsboro;
+    font-family: 'Hind Siliguri', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  }
+  .footer-links{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .footer-icons{
+    color: gainsboro;
+    padding-left: 8px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 1s;
+
+  }
+  .footer-icons:hover{
+    color:#FF6D28;
+    font-size:31px ;
+  }
+  .footer-line{
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  #jagrati-ig{
+    text-decoration: none;
+  }
+  #jagrati-fb{
+    text-decoration: none;
+  }
+  #jagrati-twitter{
+    text-decoration: none;
+    
+  }
+  #jagrati-yt{
+    text-decoration: none;
+    
+  }
+  .contributors{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contributor-btn{
+    margin-bottom:5px;
+  }
+  .team-members{
+    height: 80px;
+    border-radius:50%;
+  }
+
+  #team-show{
+    margin-top: 10px;
+  }
+  .team-members{
+    padding-right: 5px;
+    filter:brightness(75%);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .team-members:hover{
+    filter: brightness(100%);
+    transform: scale(1.1);
+
+  }
+  /* img { 
+    transition: all .2s ease-in-out; 
+  }
+  img:hover { 
+        transform: scale(1.5); 
+      } */
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+      
+      .tooltip .handle {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+      
+      .tooltip:hover .handle {
+        visibility: visible;
+      }
+      .contributors-button{
+        border:none;
+      }
